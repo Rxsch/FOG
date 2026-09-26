@@ -61,7 +61,7 @@ The game includes AI systems such as:
 
 ### Requirements
 
-* Unity [VERSION]
+* Unity 6000.3.25f1 LTS
 * Windows PC
 * [Other requirements]
 
@@ -130,4 +130,4 @@ The assets are included in this student project for educational purposes.
 
 ---
 
-Developed by the [Team Name] team for UCF CAP 4053.
+Developed by Team 8 for UCF CAP 4053.
