@@ -49,12 +49,13 @@ The game includes AI systems such as:
 
 ## 👥 Team
 
-| Member | Role   |
-| ------ | ------ |
-| Daniel Rangosch | Project Manager |
-| [Name] | [Role] |
-| [Name] | [Role] |
-| [Name] | [Role] |
+|      Member            |   Role          |
+| ---------------------- | --------------- |
+| Daniel Rangosch        | Project Manager |
+| Aileen Seidl           | [Role]          |
+| Arliette Cordova       | [Role]          |
+| Dariana Sanchez Juarez | [Role]          |
+| Polina Kovalenko       | [Role]          |
 
 ## 🚀 How to Run
 
