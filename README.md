@@ -71,7 +71,7 @@ The game includes AI systems such as:
 2. Open **Unity Hub**.
 3. Select **Add → Add project from disk**.
 4. Select the project folder.
-5. Open the project using **Unity [VERSION]**.
+5. Open the project using **Unity 6000.3.25f1 LTS**.
 6. Open the main scene.
 7. Press **Play**.
 
