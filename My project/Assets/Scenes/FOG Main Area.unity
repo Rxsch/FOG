@@ -1195,7 +1195,10 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 19ea60034f0cd554882092e7f5abc4d0, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1036373716}
+      addedObject: {fileID: 1036373717}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 19ea60034f0cd554882092e7f5abc4d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1036373718}
   m_SourcePrefab: {fileID: 100100000, guid: 19ea60034f0cd554882092e7f5abc4d0, type: 3}
 --- !u!1001 &663606732
 PrefabInstance:
@@ -1859,7 +1862,7 @@ GameObject:
   - component: {fileID: 924169917}
   m_Layer: 0
   m_Name: Camera
-  m_TagString: Reach
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2028,7 +2031,21 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 19ea60034f0cd554882092e7f5abc4d0, type: 3}
   m_PrefabInstance: {fileID: 530648652}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &1036373716
+--- !u!114 &1036373717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036373714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2619f47d26608c140b0b8a430a6dca5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Sway
+  swayAmount: 7.5
+  smoothFactor: 3
+--- !u!95 &1036373718
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -2038,10 +2055,10 @@ Animator:
   m_GameObject: {fileID: 1036373714}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f6b51cb6f1a9b3f49af77f5cf4b03dc9, type: 2}
+  m_Controller: {fileID: 9100000, guid: 6d23ce69e9940b24cb466fa00aeb0ec8, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_AnimatePhysics: 0
@@ -2149,7 +2166,7 @@ GameObject:
   - component: {fileID: 1985844509}
   m_Layer: 0
   m_Name: ReachTool
-  m_TagString: Untagged
+  m_TagString: Reach
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
