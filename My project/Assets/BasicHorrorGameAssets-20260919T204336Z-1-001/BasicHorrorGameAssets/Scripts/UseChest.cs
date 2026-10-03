@@ -1,41 +1,33 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class UseChest : MonoBehaviour
 {
-    private GameObject OB;
     public GameObject handUI;
     public GameObject objToActivate;
 
-
     private bool inReach;
-
+    private Animator animator;
 
     void Start()
     {
-
-        OB = this.gameObject;
+        animator = GetComponent<Animator>();
 
         handUI.SetActive(false);
-
         objToActivate.SetActive(false);
-
     }
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Reach")
+        if (other.CompareTag("Reach"))
         {
             inReach = true;
             handUI.SetActive(true);
         }
-
     }
 
     void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.tag == "Reach")
+        if (other.CompareTag("Reach"))
         {
             inReach = false;
             handUI.SetActive(false);
@@ -44,15 +36,14 @@ public class UseChest : MonoBehaviour
 
     void Update()
     {
-
-
-        if (inReach && Input.GetButtonDown("Interact"))
+        if (inReach && Input.GetKeyDown(KeyCode.E))
         {
             handUI.SetActive(false);
             objToActivate.SetActive(true);
-            OB.GetComponent<Animator>().SetBool("open", true);
-            OB.GetComponent<BoxCollider>().enabled = false;
+
+            animator.SetBool("open", true);
+
+            GetComponent<BoxCollider>().enabled = false;
         }
     }
-
 }
