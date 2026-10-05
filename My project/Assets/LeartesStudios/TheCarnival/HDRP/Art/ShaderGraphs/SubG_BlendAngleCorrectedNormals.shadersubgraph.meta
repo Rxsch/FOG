@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 206374fe1cdf04746ab1ab65ddde5fe4
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 60072b568d64c40a485e0fc55012dc9f, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315412
+  packageName: The Carnival Environment
+  packageVersion: 1.0
+  assetPath: Assets/LeartesStudios/TheCarnival/HDRP/Art/ShaderGraphs/SubG_BlendAngleCorrectedNormals.shadersubgraph
+  uploadId: 746043
