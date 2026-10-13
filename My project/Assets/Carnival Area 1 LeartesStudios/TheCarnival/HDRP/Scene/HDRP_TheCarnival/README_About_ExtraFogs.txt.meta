@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 70f3fefcb539d6e458c7e70d4fefd9d9
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315412
+  packageName: The Carnival Environment
+  packageVersion: 1.0
+  assetPath: Assets/LeartesStudios/TheCarnival/HDRP/Scene/HDRP_TheCarnival/README_About_ExtraFogs.txt
+  uploadId: 746043

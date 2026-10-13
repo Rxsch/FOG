@@ -1,0 +1,32 @@
+# Normalize text files automatically
+* text=auto
+
+# Programming languages
+*.cs text eol=lf
+*.shader text eol=lf
+*.compute text eol=lf
+*.hlsl text eol=lf
+
+# Unity project files
+*.unity text eol=lf
+*.prefab text eol=lf
+*.asset text eol=lf
+*.mat text eol=lf
+*.meta text eol=lf
+*.controller text eol=lf
+*.anim text eol=lf
+*.asmdef text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.fbx binary
+*.blend binary
+*.wav binary
+*.mp3 binary
+*.mp4 binary
+*.dll binary
+*.pdf binary

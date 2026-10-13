@@ -1,0 +1,45 @@
+
+name: FOG Unity CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-project:
+    name: Validate Unity Project
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Check Unity project structure
+        shell: bash
+        run: |
+          test -d "My project/Assets"
+          test -d "My project/Packages"
+          test -d "My project/ProjectSettings"
+          test -f "My project/ProjectSettings/ProjectVersion.txt"
+          echo "Unity project structure is valid!"
+
+      - name: Check unresolved merge conflicts
+        shell: bash
+        run: |
+          if git grep -n -I -E '^(<<<<<<< |=======|>>>>>>> )' -- \
+            'My project/*.cs' \
+            'My project/*.unity' \
+            'My project/*.prefab' \
+            'My project/*.asset'; then
+            echo "ERROR: Possible merge conflict markers found!"
+            exit 1
+          fi
+          echo "No merge conflict markers found!"

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c160bc2ce890d164e827f043c712f20b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315412
+  packageName: The Carnival Environment
+  packageVersion: 1.0
+  assetPath: Assets/LeartesStudios/TheCarnival/HDRP/Art/Animations/DynamicCamera11.controller
+  uploadId: 746043
