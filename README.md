@@ -1,6 +1,6 @@
 # 🎮 FOG
 
-> A horror game developed in Unity for **CAP 4053 – AI for Game Programming** at the University of Central Florida.
+> A horror game developed in Unity for **CAP 4053 – AI for Game Programming** at the UCF.
 
 ## 📖 About
 
