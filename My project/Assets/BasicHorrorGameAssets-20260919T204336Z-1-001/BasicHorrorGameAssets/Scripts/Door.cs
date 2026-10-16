@@ -49,24 +49,27 @@ public class Door : MonoBehaviour
         }
     }
 
-    void Update()
+  void Update()
+{
+    if (inReach && Input.GetButtonDown("Interact"))
     {
-
-
-        if (inReach && Input.GetButtonDown("Interact") && !invKey.activeInHierarchy)
+        if (invKey == null)
         {
-            handUI.SetActive(true);
+            Debug.LogError("Inv Key Must Be Assigned To The Door", this);
+            return;
+        }
+
+        if (!invKey.activeInHierarchy)
+        {
             UIText.SetActive(true);
+            return;
         }
 
-        if (inReach && Input.GetButtonDown("Interact") && invKey.activeInHierarchy)
-        {
-            handUI.SetActive(false);
-            UIText.SetActive(false);
-            fadeFX.SetActive(true);
-            StartCoroutine(ending());
-        }
+        handUI.SetActive(false);
+        UIText.SetActive(false);
+        SceneManager.LoadScene(nextSceneName);
     }
+}
 
     IEnumerator ending()
     {
