@@ -809,7 +809,7 @@ MonoBehaviour:
   UIText: {fileID: 1114542277}
   invKey: {fileID: 904495418}
   fadeFX: {fileID: 1453545877}
-  nextSceneName: DeathScene
+  nextSceneName: Carnival
 --- !u!65 &283783074
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5913,6 +5913,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9deafd8fec6846f6b1ae9c8302f84d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PauseMenu
+--- !u!114 &1814213587 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6043524083263937586, guid: 80705ed6ac6514c3f951fa48c164d079, type: 3}
+  m_PrefabInstance: {fileID: 8562997784585349736}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9deafd8fec6846f6b1ae9c8302f84d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PauseMenu
 --- !u!1 &1899956161
 GameObject:
   m_ObjectHideFlags: 0
@@ -6510,6 +6521,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Resume
       objectReference: {fileID: 0}
+    - target: {fileID: 928552714557109389, guid: 80705ed6ac6514c3f951fa48c164d079, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1028577225955356611, guid: 80705ed6ac6514c3f951fa48c164d079, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -6590,9 +6605,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1186929882684990518, guid: 80705ed6ac6514c3f951fa48c164d079, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186929882684990518, guid: 80705ed6ac6514c3f951fa48c164d079, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1265334299876304276, guid: 80705ed6ac6514c3f951fa48c164d079, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3241701351183647246, guid: 80705ed6ac6514c3f951fa48c164d079, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3241701351183647246, guid: 80705ed6ac6514c3f951fa48c164d079, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3241701351183647246, guid: 80705ed6ac6514c3f951fa48c164d079, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5734003409855444673, guid: 80705ed6ac6514c3f951fa48c164d079, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -6630,6 +6665,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: OpenOptions
       objectReference: {fileID: 0}
+    - target: {fileID: 8258306624146830341, guid: 80705ed6ac6514c3f951fa48c164d079, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 6278914080783600694, guid: 59732ad43861149c3abca809fb6145fb, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
