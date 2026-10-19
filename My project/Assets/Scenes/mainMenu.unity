@@ -1179,7 +1179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9cc70ef66dff9f40ae890e11839dce3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuStuff
-  nextSceneName: FOG Main Area
+  nextSceneName: Bedroom
 --- !u!1 &1953114452
 GameObject:
   m_ObjectHideFlags: 0
