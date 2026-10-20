@@ -1033,7 +1033,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'You found a key '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 59732ad43861149c3abca809fb6145fb, type: 2}
   m_sharedMaterial: {fileID: 6278914080783600694, guid: 59732ad43861149c3abca809fb6145fb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
