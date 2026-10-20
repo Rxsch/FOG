@@ -1255,6 +1255,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 928552714557109389, guid: 80705ed6ac6514c3f951fa48c164d079, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1028577225955356611, guid: 80705ed6ac6514c3f951fa48c164d079, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1335,10 +1339,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1186929882684990518, guid: 80705ed6ac6514c3f951fa48c164d079, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186929882684990518, guid: 80705ed6ac6514c3f951fa48c164d079, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3241701351183647246, guid: 80705ed6ac6514c3f951fa48c164d079, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3241701351183647246, guid: 80705ed6ac6514c3f951fa48c164d079, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3241701351183647246, guid: 80705ed6ac6514c3f951fa48c164d079, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5757925949102551925, guid: 80705ed6ac6514c3f951fa48c164d079, type: 3}
       propertyPath: m_Name
       value: PauseMenuCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 8258306624146830341, guid: 80705ed6ac6514c3f951fa48c164d079, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 6278914080783600694, guid: 59732ad43861149c3abca809fb6145fb, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
