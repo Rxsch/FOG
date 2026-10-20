@@ -5913,17 +5913,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9deafd8fec6846f6b1ae9c8302f84d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PauseMenu
---- !u!114 &1814213587 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6043524083263937586, guid: 80705ed6ac6514c3f951fa48c164d079, type: 3}
-  m_PrefabInstance: {fileID: 8562997784585349736}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a9deafd8fec6846f6b1ae9c8302f84d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PauseMenu
 --- !u!1 &1899956161
 GameObject:
   m_ObjectHideFlags: 0
