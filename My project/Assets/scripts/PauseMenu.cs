@@ -42,7 +42,7 @@ public class PauseMenu : MonoBehaviour
         Resume();
 
     Debug.Log(
-        $"Frame: {Time.frameCount} | Component: {GetInstanceID()} | " +
+        $"Frame: {Time.frameCount} | Component: {GetEntityId()} | " +
         $"Paused: {IsPaused} | Time scale: {Time.timeScale} | " +
         $"Panel: {pausePanel.name} | " +
         $"Panel active: {pausePanel.activeSelf} | " +
