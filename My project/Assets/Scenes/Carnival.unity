@@ -1055,7 +1055,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6762261151972836315, guid: d8e0daec0b767d3459213ac7f2ea01ba, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6783353490471226635, guid: d8e0daec0b767d3459213ac7f2ea01ba, type: 3}
@@ -1714,7 +1714,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6762261151972836315, guid: d8e0daec0b767d3459213ac7f2ea01ba, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6783353490471226635, guid: d8e0daec0b767d3459213ac7f2ea01ba, type: 3}
@@ -1832,7 +1832,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6762261151972836315, guid: d8e0daec0b767d3459213ac7f2ea01ba, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6783353490471226635, guid: d8e0daec0b767d3459213ac7f2ea01ba, type: 3}
@@ -2991,6 +2991,10 @@ PrefabInstance:
     - target: {fileID: 6762261151972836315, guid: d8e0daec0b767d3459213ac7f2ea01ba, type: 3}
       propertyPath: m_Name
       value: Weeping Angel AI (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6762261151972836315, guid: d8e0daec0b767d3459213ac7f2ea01ba, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6783353490471226635, guid: d8e0daec0b767d3459213ac7f2ea01ba, type: 3}
