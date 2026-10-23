@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e049919f265b80048882e8cce1b0e169
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301106
+  packageName: clown monster
+  packageVersion: 1.0
+  assetPath: Assets/Clown monster/material/M_body_set_1.mat
+  uploadId: 704428
